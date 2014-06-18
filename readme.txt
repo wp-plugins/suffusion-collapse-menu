@@ -26,7 +26,7 @@ This Plugin is based on Responsive Nav - Copyright (c) 2013 Viljami Salminen, ht
 
 == Installation ==
 
-1. Download the plugin from http://drafie-design.nl, unzip and load the folder "suffusion-collapse-menu" in to the "/wp-content/plugins/" directory, or install the zip from WordPress dashboard.
+1. Download the plugin, unzip and load the folder "suffusion-collapse-menu" in to the "/wp-content/plugins/" directory, or install the zip from WordPress dashboard.
 2. **Activate the Plugin** from plugin menu in the WordPress dashboard
 3. **CAN CHANGE STYLES**
 
