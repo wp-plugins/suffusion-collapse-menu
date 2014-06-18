@@ -1,6 +1,6 @@
 === Plugin Name ===
 
-Contributors:      Ciprian Dracea (Drake)
+Contributors:      dracea
 Plugin Name:       Suffusion Collapse Menu
 Plugin URI:        http://drafie-design.nl
 Tags:              WordPress, Suffusion, select box, select menu, navigation, responsive design, mobile devices
