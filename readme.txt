@@ -7,7 +7,7 @@ Tags:              WordPress, Suffusion, select box, select menu, navigation, re
 Author URI:        http://drafie-design.nl
 Author:            Ciprian Dracea (Drake)
 Donate link:       
-Requires at least: 3.2
+Requires at least: 3.4
 Tested up to:      3.9.1
 Stable tag:        0.4
 Version:           0.4
@@ -26,7 +26,7 @@ This Plugin is based on Responsive Nav - Copyright (c) 2013 Viljami Salminen, ht
 
 == Installation ==
 
-1. Download the plugin, unzip and load the folder "suffusion-collapse-menu" in to the "/wp-content/plugins/" directory, or install the zip from WordPress dashboard.
+1. **Download the plugin**, unzip and load the folder "suffusion-collapse-menu" in to the "/wp-content/plugins/" directory, or install the zip from WordPress dashboard.
 2. **Activate the Plugin** from plugin menu in the WordPress dashboard
 3. **CAN CHANGE STYLES**
 
@@ -34,7 +34,8 @@ This menu have the advantage that blend with your selected skin. However, you ma
 
 .nav-toggle:before {color: #f4421a;}
 
-/* The menu is displayed now if the resolution of device is below 480px, you can change this resolution adding a media query with your resolution at Custom Styles: */
+The menu is displayed now if the resolution of device is below 480px, you can change this resolution adding a media query with your resolution at Custom Styles:
+
 @media screen and (min-width: 600px) {
 a.nav-toggle, ul.tinynavNaN, ul.nav-collapse {display: none !important;}
 }
