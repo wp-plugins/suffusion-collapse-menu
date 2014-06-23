@@ -51,7 +51,7 @@ This menu have the advantage that blend with your selected skin. However, you ma
 - Bug of Suffusion corrected - when the navigation bars become select lists the home icon is not displayed as option - instead is displayed only an empty option linked right to the homepage. The plugin restore the home icon in the "home" tab.
 
 **0.2** June 14, 2014
-- Bug corrected - the plugin does not work if you are using only Navigation Bar Above Header. Thanks to Nicolas (http://www.nicolas-quendez.com/) for pointing me to this issue.
+- Bug corrected - the plugin does not work if you are using only Navigation Bar Above Header. Thanks to Nicolas for pointing me to this issue.
 
 **0.1** June 1, 2014 
 - Initial release
