@@ -9,8 +9,8 @@ Author:            Ciprian Dracea (Drake)
 Donate link:       
 Requires at least: 3.4
 Tested up to:      3.9.1
-Stable tag:        0.4
-Version:           0.4
+Stable tag:        0.5
+Version:           0.5
 License: GPLv2 or later. (http://www.gnu.org/licenses/gpl-2.0.html)
 
 == Description ==
@@ -32,18 +32,16 @@ This Plugin is based on Responsive Nav - Copyright (c) 2013 Viljami Salminen, ht
 
 This menu have the advantage that blend with your selected skin. However, you may want to change the color of icon, so you can do this by adding at SUFFUSION OPTIONS -> BACK-END -> CUSTOM INCLUDES -> CUSTOM STYLES (of course, using your color):
 
-.nav-toggle:before {color: #f4421a;}
+.nav-toggle:before {color: #FF00FF;}
 
-The menu is displayed now if the resolution of device is below 480px, you can change this resolution adding a media query with your resolution at Custom Styles:
-
-@media screen and (min-width: 600px) {
-a.nav-toggle, ul.tinynavNaN, ul.nav-collapse {display: none !important;}
-}
 
 == Screenshots ==
 1. Suffusion Collapse Menu in action
 
 == Changelog ==
+**0.5** June 23, 2014
+- Improvement - the plugin follow now the breakpoints settled in Suffusion Options. So, the collapsed menu appear now at whatever resolution you have settled at Layouts -> Responsive Layouts -> Switches -> Navigation Menu.
+
 **0.4** June 16, 2014
 - Bug corrected - by adding "home-icon" in the previous version I ruined the script for sites where the icon wasn't used in Suffusion - this was addressed.
 - Code improvement - all scripts are enqueued now in WP_ENQUEUE_SCRIPTS hook, following Codex recommendation;
@@ -56,13 +54,16 @@ a.nav-toggle, ul.tinynavNaN, ul.nav-collapse {display: none !important;}
 - Bug corrected - the plugin does not work if you are using only Navigation Bar Above Header. Thanks to Nicolas (http://www.nicolas-quendez.com/) for pointing me to this issue.
 
 **0.1** June 1, 2014 
-* Initial release
+- Initial release
 
 == Upgrade Notice ==
+= 0.5 = From now the collapse menu is no more fixed at 480px, but will follow the settings from Suffusion Options preserving consistency with theme settings
 = 0.4 = This version corrected a bug which block the collapsing menu on sites where weren't used "home-icon" in Suffusion.
 = 0.3 = If the "home" icon is used this version will show it on mobile devices
 = 0.2 = If only Navigation Bar Above Header is used, this version will show the menu.
 
 == Frequently Asked Questions ==
 
-No Questions yet
+= This plugin will work with my theme? =
+
+The plugin is written specifically for Suffusion, it address it's elements and even use some of Suffusion Options, so, it will not work with any other theme.

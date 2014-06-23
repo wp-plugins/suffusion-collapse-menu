@@ -42,20 +42,6 @@
   user-select: none;
 }
 
-@media screen and (min-width: 481px) {
-  .js .nav-collapse {
-    position: relative;
-  }
-
-  .js .nav-collapse.closed {
-    max-height: none;
-  }
-
-  .nav-toggle, .nav-collapse {
-    display: none;
-  }
-}
-
 /* ------------------------------------------
   NAVIGATION STYLES
 --------------------------------------------- */
@@ -121,12 +107,6 @@
   padding-left: 0;
 }
 
-@media screen and (min-width: 481) {
-  .nav-collapse ul ul a {
-    display: none;
-  }
-}
-
 /* ------------------------------------------
   NAV TOGGLE STYLES
 --------------------------------------------- */
@@ -151,7 +131,7 @@
 }
 
 .nav-toggle:before {
-  color: #ffffff; /* Edit this to change the icon color */
+  color: #f4421a; /* Edit this to change the icon color */
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -172,8 +152,3 @@
   font-size: 24px;
   content:"x";
 }
-
-@media screen and (min-width:481px) {
-#nav a.nav-toggle, #nav ul.tinynavNaN, #nav ul.nav-collapse, #nav-top a.nav-toggle, #nav-top ul.tinynavNaN, #nav-top ul.nav-collapse {display: none;}
-}
-
