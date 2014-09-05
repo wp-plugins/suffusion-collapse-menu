@@ -8,7 +8,7 @@ Author URI:        http://drafie-design.nl
 Author:            Ciprian Dracea (Drake)
 Donate link:       
 Requires at least: 3.4
-Tested up to:      3.9.1
+Tested up to:      4.0
 Stable tag:        0.5
 Version:           0.5
 License: GPLv2 or later. (http://www.gnu.org/licenses/gpl-2.0.html)
