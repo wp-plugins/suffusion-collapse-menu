@@ -88,6 +88,7 @@ global $suf_responsive_stops, $suf_responsive_nav_switch, $suf_collapse_ret;
 	
 	foreach ($stops as $stop) {
 	$n_stop = rtrim($stop, 'px');
+	$stop=($n_stop+1).'px';
 		$suf_collapse_ret .= "@media screen and (min-width: $stop) {";
 		if ($n_stop >= $nav_switch) {
 			$suf_collapse_ret .= $collapse_nav;
