@@ -1,7 +1,7 @@
 <?php
 /* 
 Plugin Name: Suffusion Collapse Menu
-Version: 0.5
+Version: 0.6
 Plugin URI: http://drafie-design.nl
 Description: This Plugin improve the look of menu loaded by Suffusion on mobile devices.
 Based on Responsive Nav - Copyright (c) 2013 Viljami Salminen, http://viljamis.com/
