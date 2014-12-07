@@ -8,15 +8,15 @@ Author URI:        http://drafie-design.nl
 Author:            Ciprian Dracea (Drake)
 Donate link:       
 Requires at least: 3.4
-Tested up to:      4.0
-Stable tag:        0.5
-Version:           0.5
+Tested up to:      4.0.1
+Stable tag:        0.6
+Version:           0.6
 License: GPLv2 or later. (http://www.gnu.org/licenses/gpl-2.0.html)
 
 == Description ==
 **Stylize Suffusion Menu on mobiles**
 This Plugin improve the look of menu loaded by Suffusion on mobile devices. The Plugin just load Responsive Nav files, replacing the regular select lists used by Suffusion on mobile devices.
-The menu is settled to appear on devices with resolution below 480px, on higher resolutions are used the regular Suffusion Navigation Bars.
+The menu is settled to follow the breakpoint settled at Suffusion Options -> Layouts -> Responsive Layouts -> Switches -> Navigation Menu. On higher resolutions are used the regular Suffusion Navigation Bars.
 If you use both navigation bars (Above and Below Header), they are joined in only one collapse menu, that's it - you cannot have multiple menus with this plugin.(on larger screens, both menus are restored).
 I choosed this solution for solving also the problem of 2 select lists which are displayed on mobile devices in Navigation Bar Above Header if both navigation bars are used. Also the plugin restore the "home" image in menu on mobile devices (as of version 0.3).
 However, if you have too much menu items, in complicated structures, with many levels of dropdowns, maybe better is to remain on select lists and style them with my other plugin: Suffusion Selectik Menu.
@@ -39,6 +39,9 @@ This menu have the advantage that blend with your selected skin. However, you ma
 1. Suffusion Collapse Menu in action
 
 == Changelog ==
+**0.6** December 07, 2014
+- Bug corrected - on devices with exactly the resolution of the trigger, the toggle button not appear yet, but also the regular menu is still hidden. By eg. if the breakpoint is settled at 480px, on smartphones with 480px width will not see any menu.
+
 **0.5** June 23, 2014
 - Improvement - the plugin follow now the breakpoints settled in Suffusion Options. So, the collapsed menu appear now at whatever resolution you have settled at Layouts -> Responsive Layouts -> Switches -> Navigation Menu.
 
@@ -57,7 +60,8 @@ This menu have the advantage that blend with your selected skin. However, you ma
 - Initial release
 
 == Upgrade Notice ==
-= 0.5 = From now the collapse menu is no more fixed at 480px, but will follow the settings from Suffusion Options preserving consistency with theme settings
+= 0.6 = This version address a bug which hide all menus on screens with exactly the same resolution as the sellected trigger.
+= 0.5 = From now the collapse menu is no more fixed at 480px, but will follow the settings from Suffusion Options preserving consistency with theme settings.
 = 0.4 = This version corrected a bug which block the collapsing menu on sites where weren't used "home-icon" in Suffusion.
 = 0.3 = If the "home" icon is used this version will show it on mobile devices
 = 0.2 = If only Navigation Bar Above Header is used, this version will show the menu.
