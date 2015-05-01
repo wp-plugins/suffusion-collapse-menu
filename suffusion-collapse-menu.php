@@ -7,7 +7,7 @@ Description: This Plugin improve the look of menu loaded by Suffusion on mobile 
 Based on Responsive Nav - Copyright (c) 2013 Viljami Salminen, http://viljamis.com/
 Author: Ciprian Dracea (Drake)
 Requires at least: 3.4
-Tested up to: 4.0.1
+Tested up to: 4.2.1
 Stable tag: 0.6
 Licence:  GPLv2 or later. (http://www.gnu.org/licenses/gpl-2.0.html)
 */ 
